@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 204 32% 97%;
+    --background: 0 0% 98%;
     --foreground: 211 46% 12%;
 
     --card: 0 0% 100%;
@@ -15,35 +15,35 @@
     --popover: 0 0% 100%;
     --popover-foreground: 211 46% 12%;
 
-    --primary: 196 86% 42%;
+    --primary: 357 82% 49%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 205 28% 93%;
+    --secondary: 0 0% 94%;
     --secondary-foreground: 211 46% 12%;
 
-    --muted: 204 24% 94%;
+    --muted: 0 0% 95%;
     --muted-foreground: 210 16% 38%;
 
-    --accent: 38 93% 58%;
-    --accent-foreground: 211 46% 12%;
+    --accent: 0 78% 95%;
+    --accent-foreground: 357 82% 35%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 207 28% 84%;
-    --input: 207 28% 84%;
-    --ring: 196 86% 42%;
+    --border: 0 0% 87%;
+    --input: 0 0% 87%;
+    --ring: 357 82% 49%;
 
     --radius: 1.4rem;
 
-    --navy: 211 50% 10%;
-    --navy-foreground: 205 60% 96%;
+    --navy: 0 0% 9%;
+    --navy-foreground: 0 0% 98%;
 
-    --highlight: 41 88% 61%;
-    --highlight-foreground: 211 46% 12%;
+    --highlight: 357 82% 49%;
+    --highlight-foreground: 0 0% 100%;
 
-    --water-light: 195 73% 94%;
-    --water-medium: 197 61% 84%;
+    --water-light: 0 78% 97%;
+    --water-medium: 0 60% 89%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -67,9 +67,8 @@
     @apply bg-background text-foreground font-body antialiased;
     min-height: 100vh;
     background:
-      radial-gradient(circle at top left, rgba(51, 164, 199, 0.14), transparent 28%),
-      radial-gradient(circle at top right, rgba(248, 178, 63, 0.12), transparent 26%),
-      linear-gradient(180deg, #f7fbfd 0%, #eef4f7 50%, #f8fafc 100%);
+      radial-gradient(circle at top left, rgba(232, 25, 33, 0.07), transparent 28%),
+      linear-gradient(180deg, #ffffff 0%, #f7f7f7 52%, #ffffff 100%);
     color-scheme: light;
   }
 
@@ -81,8 +80,8 @@
     pointer-events: none;
     opacity: 0.24;
     background-image:
-      linear-gradient(rgba(15, 31, 46, 0.06) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(15, 31, 46, 0.06) 1px, transparent 1px);
+      linear-gradient(rgba(20, 20, 20, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(20, 20, 20, 0.035) 1px, transparent 1px);
     background-size: 48px 48px;
   }
 
@@ -122,19 +121,19 @@
   .panel-surface-dark {
     @apply rounded-[2rem] border border-white/10 text-white;
     background:
-      linear-gradient(135deg, rgba(9, 20, 31, 0.98), rgba(13, 39, 58, 0.94)),
-      radial-gradient(circle at top right, rgba(46, 166, 204, 0.18), transparent 38%);
+      linear-gradient(135deg, rgba(16, 16, 16, 0.99), rgba(39, 24, 25, 0.96)),
+      radial-gradient(circle at top right, rgba(232, 25, 33, 0.2), transparent 38%);
     box-shadow: 0 45px 110px -70px rgba(8, 25, 40, 0.9);
   }
 
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
-    box-shadow: 0 18px 35px -20px rgba(25, 136, 176, 0.95);
+    box-shadow: 0 18px 35px -20px rgba(190, 20, 28, 0.5);
   }
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 25px 45px -24px rgba(25, 136, 176, 0.92);
+    box-shadow: 0 25px 45px -24px rgba(190, 20, 28, 0.55);
   }
 
   .btn-secondary {
@@ -152,8 +151,8 @@
   .section-bridge {
     @apply relative overflow-hidden rounded-[2rem];
     background:
-      linear-gradient(135deg, rgba(5, 22, 34, 1), rgba(10, 39, 58, 0.95)),
-      radial-gradient(circle at top right, rgba(46, 166, 204, 0.2), transparent 38%);
+      linear-gradient(135deg, rgba(12, 12, 12, 1), rgba(43, 20, 22, 0.97)),
+      radial-gradient(circle at top right, rgba(232, 25, 33, 0.2), transparent 38%);
   }
 
   .grid-fade {

@@ -71,7 +71,7 @@ function HeroSection() {
           className="absolute bottom-6 right-[-28%] h-[26rem] w-[26rem] object-contain opacity-80 drop-shadow-[0_30px_60px_rgba(0,0,0,0.55)]"
           aria-hidden="true"
         />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_62%,rgba(46,166,204,0.24),transparent_35%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_62%,rgba(232,25,33,0.2),transparent_35%)]" />
       </div>
       <div className="absolute inset-0 grid-fade opacity-35" />
       <div className="absolute left-1/2 top-0 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-primary/20 blur-3xl" />
@@ -84,13 +84,12 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="eyebrow text-white/75">Kenya water storage supply</span>
+            <span className="eyebrow text-white/75">Roto tank suppliers in Kenya</span>
             <h1 className="mt-6 max-w-4xl text-balance text-5xl font-heading leading-[0.95] md:text-7xl lg:text-8xl">
-              Buy the right tank with confidence, not guesswork.
+              Your trusted source for Roto water tanks.
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/70">
-              Premium Roto Tanks for homes, rentals, schools, farms, and commercial sites. Get clear
-              capacity guidance, competitive pricing, and fast quote support before you commit.
+              We supply Roto water storage tanks for homes, farms, schools, and businesses across Kenya. Compare sizes, get practical buying advice, and request a delivery quote from our sales team.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -131,11 +130,11 @@ function HeroSection() {
           >
             <div className="absolute inset-5 rounded-[2.5rem] bg-primary/20 blur-3xl" />
             <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/10 p-5 shadow-[0_45px_120px_-70px_rgba(0,0,0,0.85)] backdrop-blur">
-              <div className="rounded-[2rem] bg-[linear-gradient(160deg,#f6fbfd,#dceff5)] p-7 text-foreground">
+              <div className="rounded-[2rem] bg-[linear-gradient(160deg,#ffffff,#f6e8e9)] p-7 text-foreground">
                 <div className="flex items-center justify-between gap-4">
                   <div>
                     <p className="text-xs font-bold uppercase tracking-[0.28em] text-muted-foreground">
-                      Product-first buying
+                      Roto tank supply
                     </p>
                     <h2 className="mt-2 text-2xl font-heading">Tank sizing desk</h2>
                   </div>

@@ -33,13 +33,12 @@ export default function Footer() {
               <span>
                 <span className="block font-heading text-xl text-white">Roto Tanks</span>
                 <span className="block text-[11px] font-bold uppercase tracking-[0.3em] text-white/50">
-                  Water storage supply
+                  Roto tank suppliers in Kenya
                 </span>
               </span>
             </Link>
             <p className="mt-6 max-w-sm text-sm leading-7 text-white/70">
-              A conversion-focused supplier experience for Kenyan buyers who need dependable water storage for homes,
-              rentals, institutions, farms, and commercial sites.
+              Your source for Roto water storage tanks in Kenya. Compare capacities and get help with pricing and delivery for homes, rentals, institutions, farms, and businesses.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link to="/quote" className="btn-primary">

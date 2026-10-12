@@ -48,7 +48,7 @@ export default function Navbar() {
         >
           <span className="inline-flex items-center gap-2">
             <ShieldCheck className="h-3.5 w-3.5 text-primary" />
-            Premium water storage supply for homes, institutions, farms, and businesses
+            Roto water tank suppliers serving homes, institutions, farms, and businesses
           </span>
           <div className="flex items-center gap-4">
             <a href={`tel:${PHONE_NUMBER}`} className="font-semibold transition hover:text-primary">
@@ -70,7 +70,7 @@ export default function Navbar() {
                 Roto Tanks
               </span>
               <span className={cn("block text-[10px] font-bold uppercase tracking-[0.28em]", scrolled || menuOpen ? "text-muted-foreground" : "text-white/60")}>
-                Kenya supply
+                Tank suppliers
               </span>
             </span>
           </Link>
